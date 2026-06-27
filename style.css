@@ -1,0 +1,79 @@
+body {
+    background-color: #050505;
+    color: #0f0;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+#terminal {
+    border: 2px solid #0f0;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.2);
+    padding: 20px;
+    width: 450px;
+    text-align: center;
+    background-color: #000;
+}
+.korkys-title {
+    color: #ff00ff; /* Resaltado magenta */
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+#scoreBoard {
+    color: #ffaa00;
+    font-weight: bold;
+    margin: 10px 0;
+}
+#playerInput {
+    color: #0f0;
+    margin: 5px 0;
+}
+#playerInput input {
+    background: #000;
+    border: 1px solid #0f0;
+    color: #0f0;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 4px 8px;
+    outline: none;
+    width: 150px;
+}
+#ranking {
+    text-align: left;
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px dashed #00ffff;
+    background: rgba(0, 255, 255, 0.05);
+}
+#ranking h3 {
+    margin: 0 0 5px 0;
+    font-size: 0.9rem;
+    color: #00ffff;
+}
+#top3List {
+    margin: 0;
+    padding-left: 20px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+canvas {
+    border: 1px solid #333;
+    background-color: #000;
+    display: block;
+    margin: 10px auto;
+}
+#instructions {
+    color: #888;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    padding-top: 5px;
+    border-top: 1px dashed #333;
+}
+#console {
+    text-align: left;
+    font-size: 0.8rem;
+    margin-top: 15px;
+    color: #00ffff; /* Cian para la consola */
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>LOS KORKYS - HACKER TERMINAL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="terminal">
+        <div id="header">
+            <h1 class="korkys-title">LOS KORKYS</h1>
+            <p>> SYSTEM // ACCESS GRANTED</p>
+        </div>
+        <div id="scoreBoard">Puntuación: <span id="score">0</span></div>
+        <div id="playerInput">Nick: <input type="text" id="nick" placeholder="Tu nick" maxlength="12"></div>
+        <div id="game-area">
+            <canvas id="gameCanvas" width="400" height="400"></canvas>
+        </div>
+        <div id="ranking">
+            <h3>>>> TOP 3 HACKERS:</h3>
+            <ol id="top3List"></ol>
+        </div>
+        <div id="instructions">
+            <p>>> INSTRUCCIONES: Usa las flechas (↑ ↓ ← →) para controlar.</p>
+        </div>
+        <div id="console">
+            <p>> SYSTEM INITIALIZED...</p>
+            <p>> SNAKE ENGINE LOADED...</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
